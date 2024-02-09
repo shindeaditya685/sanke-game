@@ -1,0 +1,49 @@
+#gameContainer {
+  text-align: center;
+}
+
+#gameBoard {
+  border: 3px solid;
+}
+
+#scoreText {
+  font-family: "Permanent Marker", cursive;
+  font-size: 100px;
+}
+
+#resetBtn {
+  font-family: "Permanent Marker", cursive;
+  font-size: 22px;
+  width: 100px;
+  height: 50px;
+  border: 4px solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#bottomControl {
+  display: flex;
+}
+
+#controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+#leftRight {
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  width: 500px;
+  height: 500px;
+}
